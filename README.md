@@ -22,9 +22,9 @@ _eval "$(rbenv init -)"_
 
 ```$ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash```
 
-_Checking for 'rbenv' in PATH:  /usr/local/bin/rbenv_<br/>
+_Checking for rbenv in PATH:  /usr/local/bin/rbenv_<br/>
 _Checking for rbenv shims in PATH: OK<br/>_
-_Checking 'rbenv install' support: /usr/local/bin/rbenv-install (ruby-build 20180224)<br/>_
+_Checking rbenv install support: /usr/local/bin/rbenv-install (ruby-build 20180224)<br/>_
 _Counting installed Ruby versions: none<br/>_
   _There aren't any Ruby versions installed under `/Users/rwhitear/.rbenv/versions'.<br/>_
   _You can install Ruby versions like so: rbenv install 2.2.4<br/>_
