@@ -30,3 +30,45 @@ _Counting installed Ruby versions: none<br/>_
   _You can install Ruby versions like so: rbenv install 2.2.4<br/>_
 _Checking RubyGems settings: OK<br/>_
 _Auditing installed plugins: OK_
+
+```$ brew upgrade rbenv ruby-build```
+
+_Updating Homebrew..._
+
+```$ rbenv install 2.5.0```
+_ruby-build: use openssl from homebrew_
+...
+_Installed ruby-2.5.0 to /Users/rwhitear/.rbenv/versions/2.5.0_
+
+```$ ruby --version```
+
+_ruby 2.5.0p0 (2017-12-25 revision 61468) [x86_64-darwin15]_
+
+```$ sudo gem install jekyll bundler```
+
+_Fetching: public_suffix-3.0.2.gem (100%)_
+...
+_bundler's executable "bundle" conflicts with /usr/local/bin/bundle_
+_Overwrite the executable? [yN]  y_
+_bundler's executable "bundler" conflicts with /usr/local/bin/bundler_
+_Overwrite the executable? [yN]  y_
+_Successfully installed bundler-1.16.1_
+_Parsing documentation for bundler-1.16.1_
+_Installing ri documentation for bundler-1.16.1_
+_Done installing documentation for bundler after 4 seconds_
+_26 gems installed_
+
+```$ jekyll new myblog```
+
+_Running bundle install in /Users/rwhitear/Documents/GitHub/rwhitear42.github.io/myblog..._
+
+**Enter sudo password when requested**
+
+_New jekyll site installed in..._
+
+```$ cd myblog/```
+
+```$ bundle exec jekyll serve```
+
+_Server address: http://127.0.0.1:4000/_
+_Server running... press ctrl-c to stop._
