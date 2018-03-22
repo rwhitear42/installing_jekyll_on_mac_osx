@@ -36,8 +36,9 @@ _Auditing installed plugins: OK_
 _Updating Homebrew..._
 
 ```$ rbenv install 2.5.0```
-_ruby-build: use openssl from homebrew_
-...
+
+_ruby-build: use openssl from homebrew_<br/>
+...<br/>
 _Installed ruby-2.5.0 to /Users/rwhitear/.rbenv/versions/2.5.0_
 
 ```$ ruby --version```
@@ -46,16 +47,16 @@ _ruby 2.5.0p0 (2017-12-25 revision 61468) [x86_64-darwin15]_
 
 ```$ sudo gem install jekyll bundler```
 
-_Fetching: public_suffix-3.0.2.gem (100%)_
-...
-_bundler's executable "bundle" conflicts with /usr/local/bin/bundle_
-_Overwrite the executable? [yN]  y_
-_bundler's executable "bundler" conflicts with /usr/local/bin/bundler_
-_Overwrite the executable? [yN]  y_
-_Successfully installed bundler-1.16.1_
-_Parsing documentation for bundler-1.16.1_
-_Installing ri documentation for bundler-1.16.1_
-_Done installing documentation for bundler after 4 seconds_
+_Fetching: public_suffix-3.0.2.gem (100%)_<br/>
+...<br/>
+_bundler's executable "bundle" conflicts with /usr/local/bin/bundle_<br/>
+_Overwrite the executable? [yN]  y_<br/>
+_bundler's executable "bundler" conflicts with /usr/local/bin/bundler_<br/>
+_Overwrite the executable? [yN]  y_<br/>
+_Successfully installed bundler-1.16.1_<br/>
+_Parsing documentation for bundler-1.16.1_<br/>
+_Installing ri documentation for bundler-1.16.1_<br/>
+_Done installing documentation for bundler after 4 seconds_<br/>
 _26 gems installed_
 
 ```$ jekyll new myblog```
