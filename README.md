@@ -61,7 +61,7 @@ _26 gems installed_
 
 ```$ jekyll new myblog```
 
-_Running bundle install in /Users/rwhitear/Documents/GitHub/rwhitear42.github.io/myblog..._
+_Running bundle install in /Users/.../myblog..._
 
 **Enter sudo password when requested**
 
